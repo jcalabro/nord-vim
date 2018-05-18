@@ -16,16 +16,16 @@ let g:colors_name = "nord"
 let s:nord_vim_version="0.8.0"
 set background=dark
 
-let s:nord0_gui = "#2E3440"
-let s:nord1_gui = "#3B4252"
-let s:nord2_gui = "#434C5E"
-let s:nord3_gui = "#90939B"
-let s:nord4_gui = "#D8DEE9"
-let s:nord5_gui = "#E5E9F0"
-let s:nord6_gui = "#ECEFF4"
-let s:nord7_gui = "#8FBCBB"
-let s:nord8_gui = "#2E3440"
-let s:nord9_gui = "#81A1C1"
+let s:nord0_gui  = "#2E3440"
+let s:nord1_gui  = "#3B4252"
+let s:nord2_gui  = "#434C5E"
+let s:nord3_gui  = "#90939B"
+let s:nord4_gui  = "#D8DEE9"
+let s:nord5_gui  = "#E5E9F0"
+let s:nord6_gui  = "#ECEFF4"
+let s:nord7_gui  = "#8FBCBB"
+let s:nord8_gui  = "#2E3440"
+let s:nord9_gui  = "#81A1C1"
 let s:nord10_gui = "#5E81AC"
 let s:nord11_gui = "#BF616A"
 let s:nord12_gui = "#D08770"
@@ -234,7 +234,7 @@ call s:hi("Define", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Delimiter", s:nord6_gui, "", s:nord6_term, "", "", "")
 call s:hi("Exception", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Float", s:nord15_gui, "", s:nord15_term, "", "", "")
-call s:hi("Function", s:nord8_gui, "", s:nord8_term, "", "", "")
+call s:hi("Function", s:nord4_gui, "", s:nord4_term, "", "", "")
 call s:hi("Identifier", s:nord4_gui, "", "NONE", "", "NONE", "")
 call s:hi("Include", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Keyword", s:nord9_gui, "", s:nord9_term, "", "", "")
