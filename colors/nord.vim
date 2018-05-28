@@ -35,6 +35,7 @@ let s:nord15_gui = "#B48EAD"
 
 let s:nord1_term = "0"
 let s:nord3_term = "8"
+let s:nord4_term = "8"
 let s:nord5_term = "7"
 let s:nord6_term = "15"
 let s:nord7_term = "14"
